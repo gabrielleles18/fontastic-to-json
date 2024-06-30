@@ -1,0 +1,13 @@
+{
+    "name": "fontastic-to-json",
+    "version": "1.0.0",
+    "description": "Convert font in ttf to json",
+    "main": "",
+    "scripts": {
+        "generate:json": "node ./generate-json.js",
+        "format:json": "node ./format-json.js"
+    },
+    "dependencies": {
+        "opentype.js": "^1.3.4"
+    }
+}
